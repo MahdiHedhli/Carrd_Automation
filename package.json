@@ -1,6 +1,6 @@
 {
   "name": "carrd-automation",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Playwright-based automation for creating Carrd.co websites via AI agents (Claude, Codex, etc.)",
   "main": "src/carrd-automation.js",
   "type": "module",
@@ -10,7 +10,6 @@
     "test": "node tests/test-automation.js"
   },
   "dependencies": {
-    "@anthropic-ai/sdk": "^0.39.0",
     "@modelcontextprotocol/sdk": "^1.12.1",
     "dotenv": "^16.4.7",
     "playwright": "^1.52.0"
